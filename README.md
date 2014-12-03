@@ -32,4 +32,7 @@ chef generate template learn_chef_apache2 index.html
 
 # Run a cookbook
 sudo chef-client --local-mode --runlist 'recipe[learn_chef_apache2]'
+
+# Download the web server cookbook from Supermarket
+knife cookbook site download learn_chef_apache2
 ```
