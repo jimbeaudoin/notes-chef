@@ -46,4 +46,8 @@ knife node list
 
 # Show Node Info
 knife node show node1
+
+# Run the cookbook on your node
+knife ssh {{address}} 'sudo chef-client' --manual-list \
+  --ssh-user {{user}} --ssh-password '{{password}}'
 ```
