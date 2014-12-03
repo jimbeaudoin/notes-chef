@@ -35,4 +35,15 @@ sudo chef-client --local-mode --runlist 'recipe[learn_chef_apache2]'
 
 # Download the web server cookbook from Supermarket
 knife cookbook site download learn_chef_apache2
+
+# Bootstrap a node
+knife bootstrap {{address}} --ssh-user {{user}} --ssh-password '{{password}}' \
+  --sudo --use-sudo-password --node-name node1 \
+  --run-list 'recipe[learn_chef_apache2]'
+
+# Nodes List
+knife node list
+
+# Show Node Info
+knife node show node1
 ```
