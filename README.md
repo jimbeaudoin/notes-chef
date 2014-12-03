@@ -1,7 +1,7 @@
 chef-notes
 ==========
 
-### Chef Server Installation/Configuration
+#### Chef Server Installation/Configuration
 ```sh
 # Source: http://docs.getchef.com/install_server.html
 # Download the Chef Server V12 from https://downloads.chef.io/
