@@ -3,7 +3,7 @@ chef-notes
 
 #### Chef Server Installation/Configuration
 ```sh
-# Source: http://docs.getchef.com/install_server.html
+# Source: http://docs.chef.io/install_server.html
 # Download the Chef Server V12 from https://downloads.chef.io/
 sudo dpkg -i chef-server-core_12.0.0-1_amd64.deb
 
