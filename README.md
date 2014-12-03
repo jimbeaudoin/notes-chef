@@ -28,7 +28,7 @@ sudo chef-server-ctl org-create chef Chef Software, Inc. --association_user stev
 # Run a single recipe from the command line
 sudo chef-apply <filename>
 
-# Generate an app (chef-repo)
+# Generate an app (with a chef-repo folder inside)
 chef generate app <appname>
 
 # Generate a cookbook
