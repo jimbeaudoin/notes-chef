@@ -1,4 +1,4 @@
-chef-notes
+notes-chef
 ==========
 
 #### Chef Server Installation/Configuration
